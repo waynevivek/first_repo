@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Hotel Room Booking</title>
+</head>
+<body>
+
+    <!-- This div centers everything on the page -->
+    <div align="center">
+    
+        <h2>Hotel Room Booking Form</h2>
+    
+        <form>
+            <!-- 
+              - Using a table for layout is an easy way 
+              - to make the labels and inputs line up.
+            -->
+            <table cellpadding="5">
+                <tr>
+                    <td align="right">Full Name:</td>
+                    <td><input type="text" name="fullname" size="25"></td>
+                </tr>
+                <tr>
+                    <td align="right">Email:</td>
+                    <td><input type="email" name="email" size="25"></td>
+                </tr>
+                <tr>
+                    <td align="right">Phone:</td>
+                    <td><input type="tel" name="phone" size="25"></td>
+                </tr>
+                <tr>
+                    <td align="right">Check-in Date:</td>
+                    <td><input type="text" name="checkin" placeholder="dd-mm-yyyy"></td>
+                </tr>
+                <tr>
+                    <td align="right">Check-out Date:</td>
+                    <td><input type="text" name="checkout" placeholder="dd-mm-yyyy"></td>
+                </tr>
+                <tr>
+                    <td align="right">Room Type:</td>
+                    <td>
+                        <select name="roomtype">
+                            <option value="single">Single Room</option>
+                            <option value="double">Double Room</option>
+                            <option value="suite">Suite</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">Number of Guests:</td>
+                    <td><input type="number" name="guests" min="1" size="5"></td>
+                </tr>
+                <tr>
+                    <!-- 'valign' makes the label align to the top of the cell -->
+                    <td align="right" valign="top">Special Requests:</td>
+                    <td><textarea name="requests" rows="5" cols="25"></textarea></td>
+                </tr>
+                <tr>
+                    <!-- This cell spans both columns to center the buttons -->
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Book Now">
+                        <input type="reset" value="Reset Form">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    
+    </div>
+
+</body>
+</html>

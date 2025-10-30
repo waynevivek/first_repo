@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+    <!-- This div centers everything on the page -->
+    <div align="center">
+    
+        <h2>Student Registration Form</h2>
+    
+        <form>
+            <table cellpadding="5">
+                <tr>
+                    <td align="right">Full Name:</td>
+                    <td><input type="text" name="fullname" placeholder="Enter your full name"></td>
+                </tr>
+                <tr>
+                    <td align="right">Email:</td>
+                    <td><input type="email" name="email" placeholder="Enter valid email address"></td>
+                </tr>
+                <tr>
+                    <td align="right">Password:</td>
+                    <td><input type="password" name="password" placeholder="Enter password"></td>
+                </tr>
+                <tr>
+                    <td align="right">Gender:</td>
+                    <td>
+                        <!-- Radio buttons need the same 'name' to be linked -->
+                        <input type="radio" name="gender" value="male"> Male
+                        <input type="radio" name="gender" value="female"> Female
+                        <input type="radio" name="gender" value="other"> Other
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">Course:</td>
+                    <td>
+                        <select name="course">
+                            <option value="">Select Course</option>
+                            <option value="cse">Computer Science</option>
+                            <option value="ece">Electronics</option>
+                            <option value="mech">Mechanical</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">Contact No:</td>
+                    <td><input type="tel" name="phone" placeholder="Enter phone number"></td>
+                </tr>
+                <tr>
+                    <td align="right" valign="top">Address:</td>
+                    <td><textarea name="address" placeholder="Enter your address"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="reset" value="Clear">
+                        <input type="submit" value="Register">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    
+        <p>&copy; 2023 Student Registration Portal</p>
+    
+    </div>
+
+</body>
+</html>
