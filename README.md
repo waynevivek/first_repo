@@ -57,3 +57,7 @@ Commits represent continuous learning progress.
 ## Updates
 This repository is updated regularly with new practice files.
 
+## Status
+Project is currently under active development.
+
+
