@@ -36,3 +36,7 @@ Multiple small experiments are included for learning purposes.
 
 ## Portfolio
 The Portfolio folder contains my personal website files.
+
+## Version Control
+Git is used to track changes and learning progress.
+
