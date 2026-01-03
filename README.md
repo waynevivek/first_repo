@@ -23,3 +23,7 @@ Learning web development fundamentals and GitHub workflow.
 ## Notes
 This project is updated incrementally as part of daily practice.
 
+## Future Improvements
+- Add JavaScript
+- Improve responsiveness
+
