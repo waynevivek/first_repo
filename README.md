@@ -43,3 +43,7 @@ Git is used to track changes and learning progress.
 ## Learning Approach
 Small changes are committed frequently to track progress.
 
+## Resources
+Online tutorials and documentation are used for reference.
+
+
