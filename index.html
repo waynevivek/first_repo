@@ -3,48 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>e-commerce product page</title>
-    <style>
-        body {
-            padding: 0;
-            margin: 0;
-            background-color: lightgray;
-            font: 100% Arial, sans-serif;
-            border: 0caps;
-        
-        }
-        html{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            background-color: blueviolet;
-        }
-    </style>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- Navigation -->
     <header>
-        <h1> <center>My E-commerce Store</center></h1>
+        <nav class="navbar">
+            <h1 class="logo">MyPortfolio</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
-        <section class="product">
-            <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRxMUi8fMtRYOasKL7EDlH5f3j1Hq8IHeqPoUq5lhFiIGlGnU7vsvuVFXV_6reWnN2-xXlLEUec8Klntcb5yUytgzM8mMmV2qzhiQI7Hy5zrJBTKwWOTQY66A" alt="woolen cloth" width="300" height="300">
-            <h2>woolen cloth</h2>
-            <p>Product description goes here. It provides details about the product features and specifications.</p>
-            <p>Price: 249</p>
-            <button>Add to Cart</button>
-        </section>
-    </main>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h2>Hello, I'm <span>Vivek Yadav</span></h2>
+            <p>Aspiring Web Developer | HTML, CSS, GitHub</p>
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+
+        <div class="hero-img">
+            <img src="pic.jpg" alt="Profile Image">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        <p>
+            I am a passionate Web Developer learning Frontend development with HTML, CSS, and GitHub.
+            I enjoy creating clean and responsive websites and improving my skills every day.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">My Skills</h2>
+
+        <ul class="skill-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Responsive Design</li>
+            <li>Git & GitHub</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="project-container">
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>Responsive HTML & CSS portfolio design.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Student Registration Form</h3>
+                <p>Clean & validated form using HTML.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Product Landing Page</h3>
+                <p>Modern UI with flexbox layout.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contact Me</h2>
+
+        <form class="contact-form">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2024 My E-commerce Store</p>
+        <p>© 2025 MyPortfolio | All Rights Reserved</p>
     </footer>
 
-    
-    
 </body>
 </html>
-<footer>
-    <h2>For other queries</h2>
-    <p>Email: contact@ecommerce.com</p>
-    <p>Phone: +1-800-123-4567</p>
-    <p>Address: 123 Main St, City, State 12345</p>
-</footer>
