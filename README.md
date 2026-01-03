@@ -40,3 +40,6 @@ The Portfolio folder contains my personal website files.
 ## Version Control
 Git is used to track changes and learning progress.
 
+## Learning Approach
+Small changes are committed frequently to track progress.
+
