@@ -46,4 +46,9 @@ Small changes are committed frequently to track progress.
 ## Resources
 Online tutorials and documentation are used for reference.
 
+## Skills Developed
+- HTML basics
+- CSS fundamentals
+- Git usage
+
 
