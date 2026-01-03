@@ -9,3 +9,6 @@ This repository contains practice files and a portfolio project.
 - HTML
 - CSS
 
+## Folder Structure
+- Portfolio
+- exp_01 to exp_10
