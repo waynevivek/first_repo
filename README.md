@@ -15,3 +15,8 @@ This repository contains practice files and a portfolio project.
 
 ## Purpose
 Learning web development fundamentals and GitHub workflow.
+
+## Learning Goals
+- Practice HTML layouts
+- Improve CSS styling
+
