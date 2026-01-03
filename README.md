@@ -30,3 +30,7 @@ This project is updated incrementally as part of daily practice.
 ## Practice Areas
 - HTML structure
 - CSS layout
+
+## Experiments
+Multiple small experiments are included for learning purposes.
+
