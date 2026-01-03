@@ -34,3 +34,5 @@ This project is updated incrementally as part of daily practice.
 ## Experiments
 Multiple small experiments are included for learning purposes.
 
+## Portfolio
+The Portfolio folder contains my personal website files.
