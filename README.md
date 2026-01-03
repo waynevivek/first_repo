@@ -20,3 +20,6 @@ Learning web development fundamentals and GitHub workflow.
 - Practice HTML layouts
 - Improve CSS styling
 
+## Notes
+This project is updated incrementally as part of daily practice.
+
