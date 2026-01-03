@@ -27,3 +27,6 @@ This project is updated incrementally as part of daily practice.
 - Add JavaScript
 - Improve responsiveness
 
+## Practice Areas
+- HTML structure
+- CSS layout
