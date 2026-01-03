@@ -12,3 +12,6 @@ This repository contains practice files and a portfolio project.
 ## Folder Structure
 - Portfolio
 - exp_01 to exp_10
+
+## Purpose
+Learning web development fundamentals and GitHub workflow.
