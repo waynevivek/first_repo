@@ -51,4 +51,7 @@ Online tutorials and documentation are used for reference.
 - CSS fundamentals
 - Git usage
 
+## Progress Tracking
+Commits represent continuous learning progress.
+
 
